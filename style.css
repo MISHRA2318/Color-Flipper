@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -63,3 +65,69 @@ button {
      right: 0; 
      font-size: 1.5rem;
    }
+
+   @media (max-width: 580px) {
+    .container{
+      position: absolute;
+      top: 30%;
+      left: 25%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+   
+    .but{
+      padding-top: 10rem;
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      }
+
+    .btn-1{
+      padding: 10px 20px;
+      border-radius: 3px;
+      
+   
+     font-family: "Roboto", sans-serif;
+     font-family: "Stint Ultra Condensed", cursive;
+     font-weight: bold;
+     font-size: 1rem;
+    }
+
+    .bg-color{
+      border-radius: 10px;
+      color: white;
+      border: 3px solid black;
+      padding: 18px 65px;
+      margin: 0px 10px;
+      font-size: bold;
+      text-transform: uppercase;
+     
+      font-family: "Roboto", sans-serif;
+      background-color: #333;
+      box-sizing: border-box;
+    }
+}
+
+@media (max-width: 10000px) {
+
+    .but{
+      padding-top: 114px;
+      padding-right: 0px;
+      position: absolute;
+      top: 58%;
+      left: 42%;
+    }
+ 
+    .btn-1{
+    padding: 10px 40px;
+    border-radius: 5px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Stint Ultra Condensed", cursive;
+    font-weight: bold;
+    font-size: 18px;
+    }
+}
